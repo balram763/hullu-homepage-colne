@@ -46,7 +46,7 @@ nav{
     justify-content: center;
     flex-direction: column;
     background-color: aqua;
-    background-image: url("/assests/original\ \(2\).jpeg");
+    background-image: url("./assests/original\ \(2\).jpeg");
     background-size: contain;
 }
 .bg-card{
@@ -99,11 +99,9 @@ font-weight: 550;
 }
 .card-section{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     width: 100%;
     height: auto;
-    /* background-color: #00ED82; */
 }
 
 #arrow{
@@ -167,22 +165,22 @@ font-weight: 550;
     height: 555px;
     margin: 20px;
     width: 300px;
-    background-image: url("/assests/original\ \(1\).png");
+    background-image: url("./assests/original\ \(1\).png");
     background-color: #182524;
     background-size: cover;
     border-radius: 5px;
     position: relative;
 }
 .section3-card:nth-child(2){
-    background-image: url("/assests/original\ \(4\).jpeg");
+    background-image: url("./assests/original\ \(4\).jpeg");
 }
 
 .section3-card:nth-child(4){
-    background-image: url("/assests/original\ \(3\).png");
+    background-image: url("./assests/original\ \(3\).png");
 }
 
 .section3-card:nth-child(3){
-    background-image: url("/assests/original\ \(2\).png");
+    background-image: url("./assests/original\ \(2\).png");
 }
 .section3-bg{
     height: 100%;
@@ -245,7 +243,7 @@ font-weight: 550;
     min-height: 105vh;
     max-height: auto;
     width: 100%;
-    background-image: url("/assests/original\ \(5\).jpeg");
+    background-image: url("./assests/original\ \(5\).jpeg");
     background-size: cover;
     position: relative;
 }
@@ -283,8 +281,6 @@ font-weight: 550;
     width: 100%;
     padding-right: 30%;
     height: 20vh;
-
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
 }
@@ -348,8 +344,7 @@ font-weight: 550;
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: flex-end; */
-    padding-left: 25vw;    /* background-color: #2a9461; */
+    padding-left: 25vw;
     border-bottom: 1px solid gray;
 }
 .plan-price-2{
@@ -408,7 +403,6 @@ font-weight: 550;
 }
 .plan-detail-part3{
     width: 30%;
-    /* justify-content: center; */
     height: 100%;
     display: flex;
     align-items: center;
